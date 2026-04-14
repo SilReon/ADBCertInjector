@@ -7,11 +7,6 @@
 <h1>ADBCertInjector</h1>
 <p>Herramienta en Python para instalar certificados CA como certificados del sistema en dispositivos Android físicos y emuladores. Compatible con múltiples dispositivos ADB, con soporte especial para Genymotion.</p>
 
-<span class="badge">Python</span>
-<span class="badge">ADB</span>
-<span class="badge">Android</span>
-<span class="badge">Genymotion</span>
-<span class="badge">Magisk</span>
 </section>
 
 <section>
