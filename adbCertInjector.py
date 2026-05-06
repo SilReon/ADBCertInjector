@@ -83,7 +83,6 @@ def is_genymotion():
 
 def try_direct_system_install(cert_name):
     print(f"[*] Intentando instalación directa (Genymotion) - {cert_name}...")
-    input("DtaEH")
     run("adb root", check=False)
     run("adb remount", check=False)
     run(f"adb push {cert_name} /system/etc/security/cacerts/{cert_name}")
